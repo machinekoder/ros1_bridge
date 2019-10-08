@@ -216,6 +216,7 @@ Then build the bridge::
 Verify the custom types were recognized by the bridge, by printing all pairs of bridged types.
 The custom types should be listed::
 
+    source install/local_setup.bash
     ros2 run ros1_bridge dynamic_bridge --print-pairs
 
 Run the bridge, reusing shells from above::
